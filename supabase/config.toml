@@ -1,0 +1,8 @@
+# This config intentionally contains only the project_id.
+# Migrations are applied against the hosted Supabase project directly
+# (supabase db push) rather than via a local dev instance.
+#
+# If you want a local dev environment, run `supabase init` and fill in
+# the full config, then `supabase start` to spin up a local Postgres.
+
+project_id = "axyfumzmiclqkadvtjno"
